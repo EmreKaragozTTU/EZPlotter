@@ -1,0 +1,10 @@
+EZPlotter [Version 0.1 Pre-Alpha]
+>> def f(x, y): return x ** 3 + cos(y ** 3)
+... 
+>> help(ezp.plot3D)
+Help on function plot3D in module ezp:
+
+plot3D(func, x_min, x_max, y_min, y_max, plot_id=1, grid_dim=64)
+
+>> ezp.plot3D(f, -5.0, 5.0, -5.0, 5.0)
+>>
